@@ -1,0 +1,45 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems {
+  padding: 10px;
+}
+
+.dialogsItems .active {
+  color: gold;
+}
+
+.messages {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.message img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 5px 0 5px;
+}
+
+.message:nth-child(2n) {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.message:nth-child(2n) span {
+  align-self: center;
+}
+
+.message span {
+  vertical-align: 50%;
+}
